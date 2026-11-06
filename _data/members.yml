@@ -9,24 +9,25 @@
   people:
     - name: Hugo Kramer
       role: Coordenador
-      photo: /assets/img/membros/placeholder.svg
+      photo: /assets/img/membros/hugo-kramer.png
       link: "#"
     - name: Luciano Costa
       role: Vice-coordenador
-      photo: /assets/img/membros/placeholder.svg
-      link: "#"
+      photo: /assets/img/membros/luciano-costa.jpg
+      link: "https://lucianoccosta.github.io/"
 
 - group: Alunos de Mestrado
   people:
-    - name: Paloma Nunes
+    - name: Hélisson Souza
       photo: /assets/img/membros/placeholder.svg
       link: "#"
     - name: Matheus Silva
       photo: /assets/img/membros/placeholder.svg
       link: "#"
-    - name: Hélisson Souza
+    - name: Paloma Nunes
       photo: /assets/img/membros/placeholder.svg
       link: "#"
+
 
 - group: Alunos de Iniciação Científica
   people:
@@ -36,9 +37,13 @@
 
 - group: Egressos
   people:
-    - name: Valdir Soares
+    - name: Marcus Vinícius Beltrão
       photo: /assets/img/membros/placeholder.svg
       link: "#"
     - name: Ricardo França
       photo: /assets/img/membros/placeholder.svg
       link: "#"
+    - name: Valdir Soares
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+

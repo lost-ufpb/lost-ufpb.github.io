@@ -172,6 +172,7 @@ h1, h2, h3 { color: var(--slate); line-height: 1.25; }
   height: 150px;
   max-width: 100%;
   object-fit: cover;
+  object-position: 50% 25%;
   border-radius: 50%;
   border: 3px solid var(--grey-light);
   display: block;
@@ -223,3 +224,8 @@ h1, h2, h3 { color: var(--slate); line-height: 1.25; }
 /* ---------- Materiais ---------- */
 .material { background: var(--bg-soft); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 20px; }
 .material h2 { margin: 0 0 8px; font-size: 1.2rem; }
+.link-items { list-style: none; padding: 0; margin: 0; }
+.link-items li { padding: 8px 0; }
+.link-items a { font-weight: 600; }
+.link-desc { display: block; color: var(--muted); font-size: .95rem; }
+.intro { color: var(--muted); max-width: 720px; margin-bottom: 24px; }

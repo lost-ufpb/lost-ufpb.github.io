@@ -1,10 +1,19 @@
-# Materiais didáticos. Descomente e adapte o exemplo abaixo.
-# Arquivos (PDFs, slides) podem ficar em assets/materiais/.
-#
+# Materiais didáticos, organizados em grupos.
+# Cada item: title, url e description (opcional).
+# Arquivos (PDFs, slides) podem ficar em assets/materiais/ e ser referenciados
+# como /assets/materiais/arquivo.pdf.
+
+- title: Ferramentas interativas
+  items:
+    - title: Simplício
+      url: https://simplicio-bonbon-8c310.netlify.app/
+      description: >-
+        Ferramenta educacional para aprender o Método Simplex passo a passo,
+        com explicações sobre cada decisão tomada.
+
+# Exemplo de outro grupo:
 # - title: Pesquisa Operacional I
 #   description: Notas de aula e listas de exercícios.
 #   items:
 #     - title: Notas de aula – Programação Linear
 #       url: /assets/materiais/po1-notas.pdf
-#     - title: Lista de exercícios 1
-#       url: /assets/materiais/po1-lista1.pdf

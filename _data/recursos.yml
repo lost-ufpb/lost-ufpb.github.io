@@ -1,0 +1,14 @@
+# Recursos de pesquisa (códigos, instâncias, dados, soluções...).
+# Mesmo formato de materiais.yml. Descomente e adapte:
+#
+# - title: Códigos
+#   items:
+#     - title: Relax-and-fix e fix-and-optimize para o MCLSP-UPM
+#       url: https://github.com/lost-ufpb/...
+#       description: Implementação usada em França et al. (2026).
+#
+# - title: Instâncias
+#   items:
+#     - title: Instâncias do problema de dimensionamento de lotes
+#       url: https://github.com/lost-ufpb/...
+#       description: Conjunto de instâncias e melhores soluções conhecidas.
