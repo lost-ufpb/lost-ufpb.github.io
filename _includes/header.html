@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Página inicial do LOSt">
+      <span class="brand-logo"><img src="{{ '/assets/img/LOSt_vertical.jpg' | relative_url }}" alt=""></span>
+      <span class="brand-text">
+        <strong>LOSt</strong>
+        <small>{{ site.long_title }}</small>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Menu principal">
+      {% for item in site.data.navigation %}
+        {% assign active = false %}
+        {% if item.url == '/' %}
+          {% if page.url == '/' or page.url == '/index.html' %}{% assign active = true %}{% endif %}
+        {% elsif page.url contains item.url %}
+          {% assign active = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

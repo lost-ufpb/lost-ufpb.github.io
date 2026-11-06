@@ -1,0 +1,10 @@
+# Materiais didáticos. Descomente e adapte o exemplo abaixo.
+# Arquivos (PDFs, slides) podem ficar em assets/materiais/.
+#
+# - title: Pesquisa Operacional I
+#   description: Notas de aula e listas de exercícios.
+#   items:
+#     - title: Notas de aula – Programação Linear
+#       url: /assets/materiais/po1-notas.pdf
+#     - title: Lista de exercícios 1
+#       url: /assets/materiais/po1-lista1.pdf

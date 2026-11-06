@@ -1,0 +1,20 @@
+---
+layout: default
+title: Membros
+permalink: /membros/
+---
+{% for group in site.data.members %}
+<section class="member-group">
+  <h2>{{ group.group }}</h2>
+  <div class="member-grid">
+    {% for p in group.people %}
+    <div class="member">
+      <img src="{{ p.photo | default: '/assets/img/membros/placeholder.svg' | relative_url }}" alt="Foto de {{ p.name }}" loading="lazy">
+      <p class="member-name">{{ p.name }}</p>
+      {% if p.role %}<p class="member-role">{{ p.role }}</p>{% endif %}
+      {% if p.link %}<a class="member-link" href="{{ p.link }}">Página pessoal</a>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

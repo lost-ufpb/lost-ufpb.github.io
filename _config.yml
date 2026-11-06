@@ -1,0 +1,23 @@
+title: LOSt
+long_title: Laboratório de Otimização de Sistemas
+description: >-
+  Laboratório de Otimização de Sistemas (LOSt) do Departamento de Engenharia
+  de Produção da Universidade Federal da Paraíba (UFPB).
+lang: pt-BR
+url: "https://lost-ufpb.github.io"
+baseurl: ""
+
+# Arquivo BibTeX usado na página de Publicações
+bibfile: /assets/bib/publications.bib
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.docx"
+  - "*:Zone.Identifier"
+  - vendor

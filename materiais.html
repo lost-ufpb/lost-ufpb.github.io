@@ -1,0 +1,22 @@
+---
+layout: default
+title: Materiais Didáticos
+permalink: /materiais/
+---
+{% if site.data.materiais and site.data.materiais.size > 0 %}
+  {% for m in site.data.materiais %}
+  <section class="material">
+    <h2>{{ m.title }}</h2>
+    {% if m.description %}<p>{{ m.description }}</p>{% endif %}
+    {% if m.items %}
+    <ul>
+      {% for it in m.items %}
+      <li><a href="{{ it.url | relative_url }}">{{ it.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% endfor %}
+{% else %}
+  <p class="notice">Em breve, materiais de apoio às disciplinas de Pesquisa Operacional, otimização e métodos quantitativos.</p>
+{% endif %}

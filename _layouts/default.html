@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% seo %}
+  <link rel="icon" href="{{ '/assets/img/LOSt_vertical.jpg' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main class="container">
+    {% if page.title and page.show_title != false %}
+      <h1 class="page-title">{{ page.title }}</h1>
+    {% endif %}
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% if page.scripts %}
+    {% for s in page.scripts %}
+      <script src="{{ s | relative_url }}" defer></script>
+    {% endfor %}
+  {% endif %}
+</body>
+</html>

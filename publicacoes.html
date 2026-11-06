@@ -1,0 +1,17 @@
+---
+layout: default
+title: Publicações
+permalink: /publicacoes/
+scripts:
+  - /assets/js/publications.js
+---
+<div class="pub-toolbar">
+  <input id="pub-search" type="search" placeholder="Buscar por título, autor, periódico ou ano…" aria-label="Buscar publicações">
+  <span id="pub-count" class="pub-count"></span>
+</div>
+
+<div id="publications" data-bib="{{ site.bibfile | relative_url }}">
+  <p class="notice">Carregando publicações…</p>
+</div>
+
+<noscript><p class="notice">Ative o JavaScript para ver a lista, ou baixe o <a href="{{ site.bibfile | relative_url }}">arquivo BibTeX</a>.</p></noscript>

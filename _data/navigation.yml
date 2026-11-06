@@ -1,0 +1,9 @@
+# Abas do menu. Para adicionar uma nova aba, crie a página e inclua aqui.
+- title: Início
+  url: /
+- title: Membros
+  url: /membros/
+- title: Publicações
+  url: /publicacoes/
+- title: Materiais Didáticos
+  url: /materiais/

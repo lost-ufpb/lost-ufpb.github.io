@@ -1,0 +1,44 @@
+# Membros do LOSt.
+# Para cada pessoa:
+#   name:  nome exibido
+#   role:  (opcional) função exibida abaixo do nome
+#   photo: caminho da foto (coloque o arquivo em assets/img/membros/)
+#   link:  página pessoal, Lattes, etc.
+
+- group: Professores
+  people:
+    - name: Hugo Kramer
+      role: Coordenador
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+    - name: Luciano Costa
+      role: Vice-coordenador
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+
+- group: Alunos de Mestrado
+  people:
+    - name: Paloma Nunes
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+    - name: Matheus Silva
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+    - name: Hélisson Souza
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+
+- group: Alunos de Iniciação Científica
+  people:
+    - name: João Nobrega
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+
+- group: Egressos
+  people:
+    - name: Valdir Soares
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
+    - name: Ricardo França
+      photo: /assets/img/membros/placeholder.svg
+      link: "#"
